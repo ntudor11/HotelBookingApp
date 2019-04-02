@@ -5,7 +5,7 @@
         <title>Landon Hotel App</title>
             <link rel="icon" type="image/x-icon" href="favicon.ico" />
             <link rel="stylesheet" href="{{ asset('css/foundation.css') }}">
-            <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+            <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css">
             <link rel="stylesheet" href="{{ asset('pickadate/lib/themes/default.css') }}">
             <link rel="stylesheet" href="{{ asset('pickadate/lib/themes/default.date.css') }}">
     <meta class="foundation-mq"></head>
