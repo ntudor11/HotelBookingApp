@@ -53,10 +53,11 @@ return [
             'prefix' => '',
             'prefix_indexes' => true,
             'strict' => true,
-            'engine' => null,
+            'engine' => 'InnoDB',
             'options' => array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]),
+            'unix_socket' => '/Applications/MAMP/tmp/mysql/mysql.sock',
         ],
 
         'pgsql' => [
