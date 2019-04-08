@@ -22,11 +22,10 @@ Route::get('/clients/{client_id}', 'ClientController@show')->name('show_client')
 Route::post('/clients/{client_id}', 'ClientController@modify')->name('update_client');
 
 
-Route::get('/reservations', 'ReservationsController@bookRoom');
 Route::get('/reservations/{client_id}', 'RoomsController@checkAvailableRooms')->name('check_room');
 Route::post('/reservations/{client_id}', 'RoomsController@checkAvailableRooms')->name('check_room');
 
-Route::get('/book/room/{client_id}/{room_id}/{date_in}/{date_out}', 'ReservationsController@bookRoom');
+Route::get('/book/room/{client_id}/{room_id}/{date_in}/{date_out}', 'ReservationsController@bookRoom')->name('book_room');
 
 // Route::get('/test', function() {
 //    return view('test',["name"=>"Tudor Nastasa"]);

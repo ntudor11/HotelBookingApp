@@ -18,7 +18,6 @@
           <ul class="dropdown menu" data-dropdown-menu="tckp8q-dropdown-menu" role="menubar">
             <li role="menuitem"><a href="{{ asset('./') }}">Home</a></li>
             <li role="menuitem"><a href="{{ asset('./clients') }}">Clients</a></li>
-            <li role="menuitem"><a href="{{ asset('./reservations') }}">Reservations</a></li>
           </ul>
         </div>
       </div>
